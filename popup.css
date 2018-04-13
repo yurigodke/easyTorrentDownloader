@@ -1,0 +1,65 @@
+body {
+	width: 300px;
+	padding: 10px 20px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	margin: 0;
+	font-size: 24px;
+	color: #00c9ca
+}
+
+.easyDown-buttons {
+	margin: 15px 0;
+	text-align: center;
+}
+
+.easyDown-buttons button {
+	background: none;
+	border: 1px #00c9ca solid;
+	border-radius: 3px;
+	padding: 10px 15px;
+	margin: 0 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	cursor: pointer;
+}
+
+.easyDown-buttons button:focus {
+	outline: 0;
+}
+
+.easyDown-list {
+	display: none;
+}
+
+.easyDown-list .easyDown-list-item {
+	border: 1px #00c9ca solid;
+	border-radius: 3px;
+	padding: 5px;
+	margin-bottom: -1px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.easyDown-list .easyDown-list-item-title {
+	width: 240px;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.easyDown-list .easyDown-list-item-link {
+	text-align: right;
+	display: inline-block;
+	text-decoration: none;
+	color: #00c9ca;
+}
+
+.easyDown-list .easyDown-list-item-link:hover {
+	opacity: .6;
+}
