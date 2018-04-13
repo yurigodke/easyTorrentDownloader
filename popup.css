@@ -51,6 +51,7 @@ h1 {
 	display: inline-block;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .easyDown-list .easyDown-list-item-link {
